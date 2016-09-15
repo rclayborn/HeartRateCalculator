@@ -51,10 +51,10 @@ class ViewController: UIViewController {
             let zone5 = Double(maxRestMath) * 0.91 + Double(restingHR)
             let maxHeartRate = Double(maxRestMath) * 0.97 + Double(restingHR)
             
-            zone1Label.text = "Zone 1: \(Int(zone1))-\(Int(zone2)) Get the blood flowing for faster recovery"
-            zone2Label.text = "Zone 2: \(Int(zone2))-\(Int(zone3)) Spend most of your time here for an Endurance base"
-            zone3Label.text = "Zone 3: \(Int(zone3))-\(Int(zone4)) Use this zone to improve speed and power"
-            zone4Label.text = "Zone 4, \(Int(zone4))-\(Int(zone5)) Use this zone to push back your Lactate Theshold"
+            zone1Label.text = "Zone 1: \(Int(zone1))-\(Int(zone2)) warm-up  or recovery"
+            zone2Label.text = "Zone 2: \(Int(zone2))-\(Int(zone3)) Fitness or Fat burne"
+            zone3Label.text = "Zone 3: \(Int(zone3))-\(Int(zone4)) Cardio or Endurance"
+            zone4Label.text = "Zone 4, \(Int(zone4))-\(Int(zone5)) Lactate or hardcore"
             zone5Label.text = "Zone 5: \(Int(zone5))-\(Int(maxHeartRate)) This is going to hurt"
 
         }else {
@@ -72,10 +72,10 @@ class ViewController: UIViewController {
         let zone5 = Double(maxRestMath) * 0.91 + Double(restingHR)
         let maxHeartRate = Double(maxRestMath) * 0.97 + Double(restingHR)
         
-            zone1Label.text = "Zone 1: \(Int(zone1))-\(Int(zone2)) Get the blood flowing for faster recovery"
-            zone2Label.text = "Zone 2: \(Int(zone2))-\(Int(zone3)) Spend most of your time here for an Endurance base"
-            zone3Label.text = "Zone 3: \(Int(zone3))-\(Int(zone4)) Use this zone to improve speed and power"
-            zone4Label.text = "Zone 4, \(Int(zone4))-\(Int(zone5)) Use this zone to push back your Lactate Theshold"
+            zone1Label.text = "Zone 1: \(Int(zone1))-\(Int(zone2)) warm-up  or recovery"
+            zone2Label.text = "Zone 2: \(Int(zone2))-\(Int(zone3)) Fitness or Fat burn"
+            zone3Label.text = "Zone 3: \(Int(zone3))-\(Int(zone4)) Cardio or Endurance"
+            zone4Label.text = "Zone 4, \(Int(zone4))-\(Int(zone5)) Lactate or hardcore"
             zone5Label.text = "Zone 5: \(Int(zone5))-\(Int(maxHeartRate)) This is going to hurt"
     }
         }
